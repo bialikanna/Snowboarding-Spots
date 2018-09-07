@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.img {
+  background-image: url("../images/snowboarding_baner.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #0881A3;
+  width: 300px;
+  height: 200px;
+}
+
+.img_2 {
+  background-image: url("../images/resorts.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #0881A3;
+  width: 300px;
+  height: 200px;
+}
+
+.containerr {
+  width: 320px;
+  margin: 0 auto;
+  //border: 2px solid red;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper_2 {
+  margin-bottom: 10px;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+}
+
+.ham_link {
+  text-align: center;
+}
+
+.btn_category {
+  width: calc(50% - 5px);
+  height: auto;
+  background-color: #E6AC27;
+  color: white;
+  margin-top: 10px;
+  //margin-left: 10px;
+}
+
+.user {
+  background-image: url("../images/user.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+
+.footer {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  margin: 25px;
+
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+.buttons {
+  width: 100px;
+  height: 20px;
+  background-color: yellow;
+}
+
+.bialka {
+  background-image: url("../images/bialka/bialka_1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Arial";
+  font-size: 23px;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Arial";
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.szczyrk {
+  background-image: url("../images/szczyrk/szczyrk_1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+  margin: 0 auto;
+}
+.szczyrk_2 {
+  background-image: url("../images/szczyrk/szczyrk_2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 2px solid #E5E5E5;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.zieleniec {
+  background-image: url("../images/zieleniec/zieleniec_1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+  margin: 0 auto;
+}
+
+.czarna {
+  background-image: url("../images/czarna_gora/czarna_gora_1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+  margin: 0 auto;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a {
+  color: black;
+}
+
+input {
+  &.text {
+    width: 100%;
+    font-size: 18px;
+    padding: 8px 16px;
+    background-color: transparent;
+    border: 1px solid #E5E5E5;
+
+    &:focus {
+      outline: 0;
+    }
+  }
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.icons img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+.map img {
+  width: 300px;
+  height: auto;
+  border: 2px solid #E5E5E5;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.temperature {
+  font-family: "Arial Black";
+  font-weight: bold;
+  font-size: 25px;
+}
+.weather {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+
+
+
+
